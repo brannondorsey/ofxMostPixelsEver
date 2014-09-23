@@ -19,6 +19,7 @@
 #include "ofxXmlSettings.h"
 ofxMPEServer::ofxMPEServer()
 {
+    ofSetWindowShape(250, 50);
 	allconnected = false;
 	framerate = 30;
 	numRequiredClients = 0;
